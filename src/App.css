@@ -1,0 +1,93 @@
+
+html,
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+html {
+  margin-top: 50px;
+}
+
+.sidebar {
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 45%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 50px; /* Stay at the top */
+  left:40%;
+  background: #634d8d; /* Purple */
+  overflow-x: visible; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+}
+
+.set{
+  left:0%;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  line-height: 55px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
+
+
+nav {
+  height: 50px;
+  background: #c1c1c1;
+}
+
+.menu-button {
+  background: #4646cc;
+  height: 40px;
+  margin: 5px;
+  float: left;
+  line-height: 40px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.closebtn:hover{
+  background: grey;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
